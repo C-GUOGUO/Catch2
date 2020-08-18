@@ -12,6 +12,7 @@
 #include <catch2/internal/catch_noncopyable.hpp>
 #include <catch2/catch_config.hpp>
 #include <catch2/internal/catch_unique_ptr.hpp>
+#include <catch2/internal/catch_compiler_capabilities.hpp>
 
 namespace Catch {
 
