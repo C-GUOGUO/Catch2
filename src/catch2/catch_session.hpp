@@ -9,12 +9,13 @@
 #define TWOBLUECUBES_CATCH_RUNNER_HPP_INCLUDED
 
 #include <catch2/internal/catch_commandline.hpp>
+#include <catch2/internal/catch_noncopyable.hpp>
 #include <catch2/catch_config.hpp>
 #include <catch2/internal/catch_unique_ptr.hpp>
 
 namespace Catch {
 
-    class Session : NonCopyable {
+    class Session : Detail::NonCopyable {
     public:
 
         Session();
